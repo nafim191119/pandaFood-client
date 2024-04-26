@@ -12,7 +12,6 @@ const Order = () => {
   const allIndex = ["salad", "pizza", "soup", "dessert", "drinks"];
   const { item } = useParams();
   const index = allIndex.indexOf(item);
-  console.log(index);
   const [menu, isMenuLoading] = UseMenu();
   const drinks = menu.filter((data) => data.category === "drinks");
   const dessert = menu.filter((data) => data.category === "dessert");

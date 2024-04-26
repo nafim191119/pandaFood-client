@@ -41,7 +41,7 @@ const router = createBrowserRouter([
         element: <Order></Order>,
       },
       {
-        path: "/oder/cardInfo/:id",
+        path: "/order/cardInfo/:id",
         element: <CardInfo></CardInfo>,
       },
       {
